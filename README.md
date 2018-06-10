@@ -29,3 +29,9 @@ SELECT * FROM planet_osm_point WHERE aeroway = 'airplane';
 ```
 
 
+#Osm2po
+osm2pgrouting hard to install
+Trying osm2po
+```
+java -Xmx1408m -jar osm2po/osm2po-core-5.2.43-signed.jar prexif=ospo tileSize=x,c ile-de-france-latest.osm  postp.0.class=de.cm.osm2po.plugins.postp.PgRoutingWriter
+```
